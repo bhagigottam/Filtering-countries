@@ -1,0 +1,31 @@
+<h1 *ngIf="show">Bhagya</h1>
+<button (click)="closeeeee()">close</button>
+
+<div style="display:flex; margin-top:20px">
+    <mat-toolbar color="primary">
+       
+        <span>My App</span>
+        <span class="space"></span>
+        <span>selected user profile:</span>
+       
+      </mat-toolbar>
+</div>
+<div class="ks">
+    
+<input class="form-control kims" type="text" placeholder="Search" aria-label="Search">
+
+</div>
+<div class="ks1">
+    <span>please note that you are searching for tasks:</span>
+</div>
+
+<div class="added ks" (click)="showmodals()" >
+    <span style="margin-left:5px" >New task+</span>
+</div>
+
+<div class="modalparent" *ngIf="showmodal">
+    <div class="modalbody">
+        <button class="red" (click)="showmodal=false">close</button>
+    </div>
+
+</div>

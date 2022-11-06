@@ -1,0 +1,48 @@
+.space{
+ flex:1 1 auto;
+}
+.ks{
+    margin-top: 50PX;
+    margin-left: 450px;
+}
+.kims{
+    width: 50%;
+}
+.ks1{
+ opacity: 0.5;
+    margin-left: 450px;
+}
+.added{
+    border:1px  solid grey;
+    height: 25px;
+    width: 80px;
+    border-radius:10px;
+    cursor:pointer;
+}
+.modalparent{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.459);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modalbody{
+    width: 400px;
+    min-height: 400px;
+    height: auto; 
+    border-radius: 8px;
+    background: white;
+    padding: 8px;
+}
+.red{
+    background-color: red;
+    color:white;
+    float: right;
+    border-radius:10px;
+    cursor: pointer;
+}

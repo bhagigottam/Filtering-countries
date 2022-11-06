@@ -1,0 +1,16 @@
+<!-- <app-bhagya></app-bhagya> -->
+<!-- <input type="text" [(ngModel)]="search" (keyup)="searchin($event)"/>
+<div *ngFor="let city of filteredcities">
+<p>{{city.city}}</p>
+</div> -->
+
+<div class="header-container">
+
+</div>
+<div class="searches">
+    <input [(ngModel)]="something" (keyup)="searchfilter($event)" placeholder="Type something" class="searchbox" type="text"/>
+    
+</div>
+<div class="searches" *ngFor="let city of filteredcities">
+    <p>{{city.city}}</p>
+    </div>
